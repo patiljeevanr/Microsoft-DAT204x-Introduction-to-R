@@ -1,0 +1,144 @@
+---
+title: 'Lab : Basic data types'
+author: "Jeevan Patil"
+date: "6 August 2015"
+output: html_document
+---
+1. Change the value of the:
+    i. my_numeric variable to 42.
+    ii. my_character variable to "forty-two". Note that the quotation marks indicate          that "forty-two" is a character.
+    iii. my_logical variable to FALSE.
+   Note that R is case sensitive!
+
+R code :
+
+\# What is the answer to the universe?
+
+my_numeric <- 42
+
+\# The quotation marks indicate that the variable is of type character
+
+my_character <- "forty-two"
+
+\# Change the value of my_logical
+
+my_logical <- FALSE
+
+
+
+2. Click 'Submit Answer' and read the error message. Make sure to understand why this did not work.
+Adjust the code so that R knows you have 6 oranges and thus a fruit basket with 11 pieces of fruit.
+
+R code :
+
+\# Assign a value to the variable called my_apples
+
+my_apples <- 5 
+
+\# Print out the value of my_apples
+
+my_apples       
+
+\# Assign a value to the variable my_oranges and print it out
+
+my_oranges <- 6 
+
+my_oranges 
+
+\# New variable that contains the total amount of fruit
+
+my_fruit <- my_apples + my_oranges 
+
+my_fruit
+
+
+
+3. What's that data type?
+
+Do you remember that when you added 5 + "six", you got an error due to a mismatch in data types? You can avoid such embarrassing situations by checking the data type of a variable beforehand. You can do this as follows:
+class(some_variable_name)
+In the workspace (you can inspect it by typing ls() in the console), some variables have already been defined. Which statement concerning these variables are correct?
+
+Instructions
+
+a's class is integer, b is a character, c is a boolean.
+a's class is character, b is a character as well, c is a logical.
+a's class is numeric, b is a string, c is a logical.
+a's class is numeric, b is a character, c is a logical
+
+Ans. a's class is numeric, b is a character, c is a logical
+
+R code :
+
+\> ls()
+
+[1] "a" "b" "c"
+
+\> class(a)
+
+[1] "numeric"
+
+\> class(b)
+
+[1] "character"
+
+\> class(c)
+
+[1] "logical"
+
+
+
+4. 
+    i. Convert var1, a logical, to a character and assign it to the variable           var1_char.
+    ii. Next, see whether var1_char actually is a character by using the                is.character() function on it.
+    iii. Convert var2, a numeric, to a logical and assign it to the variable            var2_log.
+    iv. Inspect the class of var2_log using class().
+    v. Finally, try to coerce var3 to a numeric and assign the result to                var3_num. Was it successful?
+    
+R code :
+
+\# Create variables var1, var2 and var3
+
+var1 <- TRUE
+
+var2 <- 0.3
+
+var3 <- "i"
+
+\# Convert var1 to a character: var1_char
+
+var1_char <- as.character(var1)
+
+\# See whether var1_char is a character
+
+var1_char
+
+\# Convert var2 to a logical: var2_log
+
+var2_log <- as.logical(var2)
+
+\# Inspect the class of var2_log
+
+var2_log
+
+\# Coerce var3 to a numeric: var3_num
+
+var3_num <- as.numeric(var3)
+
+
+
+5. Goal : Clean the questionnaire data
+
+In the questionnaire data, there are three variables that do not have the correct types. Create three new variables, age_clean, employed_clean and salary_clean that contain the correct information in the most meaningful format (e.g. numeric for numbers).
+
+R code :
+
+\> ls()
+
+[1] "age"      "employed" "location" "salary"  
+
+\> age_clean <- as.numeric(age)
+
+\> employed_clean <- as.logical(employed)
+
+\> salary_clean <- as.numeric(salary)

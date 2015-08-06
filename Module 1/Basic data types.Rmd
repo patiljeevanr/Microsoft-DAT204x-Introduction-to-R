@@ -1,0 +1,41 @@
+---
+title: "Basic data types"
+author: "Jeevan Patil"
+date: "6 August 2015"
+output: html_document
+---
+REVIEW QUESTION 1  (1/1 point)
+Which R function should you use to get the variable type?
+
+Ans. class() 
+
+
+REVIEW QUESTION 2  (1/1 point)
+Which two of the following variables are logical values?
+
+1. TRUE  
+2. "hello"  
+3. 2L  
+4. NA
+
+Ans. TRUE, NA
+
+
+REVIEW QUESTION 3  (1/1 point)
+What is the purpose of the is.*() function?
+
+1. It is used to see whether variables are of a certain type. 
+2. It is used to transform the type of a variable to any other type.  
+3. It is used to see the value of the variables.
+
+Ans. It is used to see whether variables are of a certain type.
+
+
+REVIEW QUESTION 4  (1/1 point)
+What is the purpose of the as.*() function?
+
+1. It is used to see whether variables are of a certain type.  
+2. It is used to transform the type of a variable to another type. 
+3. It is used to see the value of the variables.
+
+Ans. It is used to transform the type of a variable to another type.

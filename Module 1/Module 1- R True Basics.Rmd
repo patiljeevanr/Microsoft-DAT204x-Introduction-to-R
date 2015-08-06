@@ -1,0 +1,44 @@
+---
+title: 'Module 1: R True Basics'
+author: "Jeevan Patil"
+date: "Wednesday, August 05, 2015"
+output: html_document
+---
+REVIEW QUESTION 1  (1/1 point)
+What are the three advantages of using R?
+
+1. Publication quality visualizations  
+2. Point and click program  
+3. R packages  
+4. Reproducibility
+
+Ans. Publication quality visualizations, R packages, Reproducibility
+
+
+REVIEW QUESTION 2  (1/1 point)
+What are the two reasons for using an R-script?
+
+1. Reproducibility  
+2. Point and click program  
+3. Automate your work  
+4. Auto-complete
+
+Ans. Reproducibility, Automate your work 
+
+
+REVIEW QUESTION 3  (1/1 point)
+Which symbol should you use to place comments in R?
+
+1. \*  
+2. /  
+3. \# 
+4. $
+
+Ans. #
+
+
+REVIEW QUESTION 4  (1/1 point)
+Which R function should you use to remove a variable from the workspace in R?
+
+
+Ans. rm()
