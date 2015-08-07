@@ -4,13 +4,15 @@ author: "Jeevan Patil"
 date: "6 August 2015"
 output: html_document
 ---
-REVIEW QUESTION 1  (1/1 point)
+REVIEW QUESTION 1  
+
 Which R function should you use to get the variable type?
 
 Ans. class() 
 
 
-REVIEW QUESTION 2  (1/1 point)
+REVIEW QUESTION 2  
+
 Which two of the following variables are logical values?
 
 1. TRUE  
@@ -21,7 +23,8 @@ Which two of the following variables are logical values?
 Ans. TRUE, NA
 
 
-REVIEW QUESTION 3  (1/1 point)
+REVIEW QUESTION 3  
+
 What is the purpose of the is.*() function?
 
 1. It is used to see whether variables are of a certain type. 
@@ -31,7 +34,8 @@ What is the purpose of the is.*() function?
 Ans. It is used to see whether variables are of a certain type.
 
 
-REVIEW QUESTION 4  (1/1 point)
+REVIEW QUESTION 4  
+
 What is the purpose of the as.*() function?
 
 1. It is used to see whether variables are of a certain type.  

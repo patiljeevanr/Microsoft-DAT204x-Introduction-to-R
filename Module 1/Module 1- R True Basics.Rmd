@@ -4,7 +4,8 @@ author: "Jeevan Patil"
 date: "Wednesday, August 05, 2015"
 output: html_document
 ---
-REVIEW QUESTION 1  (1/1 point)
+REVIEW QUESTION 1  
+
 What are the three advantages of using R?
 
 1. Publication quality visualizations  
@@ -15,7 +16,8 @@ What are the three advantages of using R?
 Ans. Publication quality visualizations, R packages, Reproducibility
 
 
-REVIEW QUESTION 2  (1/1 point)
+REVIEW QUESTION 2  
+
 What are the two reasons for using an R-script?
 
 1. Reproducibility  
@@ -26,7 +28,8 @@ What are the two reasons for using an R-script?
 Ans. Reproducibility, Automate your work 
 
 
-REVIEW QUESTION 3  (1/1 point)
+REVIEW QUESTION 3  
+
 Which symbol should you use to place comments in R?
 
 1. \*  
@@ -37,7 +40,8 @@ Which symbol should you use to place comments in R?
 Ans. #
 
 
-REVIEW QUESTION 4  (1/1 point)
+REVIEW QUESTION 4  
+
 Which R function should you use to remove a variable from the workspace in R?
 
 
