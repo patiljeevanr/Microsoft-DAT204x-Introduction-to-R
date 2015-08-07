@@ -1,0 +1,37 @@
+---
+title: "Lecture - create and name vectors"
+author: "Jeevan Patil"
+date: "7 August 2015"
+output: html_document
+---
+REVIEW QUESTION 1  
+
+What function should you use to create a vector?
+
+Ans. c()
+
+
+
+REVIEW QUESTION 2  
+
+Which three of the following actions attach labels to the vector elements?
+
+1. Define the labels by using the names() function.  
+2. Define the labels inside the c() function by using the equal sign, leaving the     names of the labels unquoted.  
+3. Define the labels inside the c() function by using the equal sign, putting the     names of the labels between quotes.  
+4. Define the labels by using the labels() function.
+
+Ans. Define the labels by using the names() function., Define the labels inside the c() function by using the equal sign, leaving the names of the labels unquoted., Define the labels inside the c() function by using the equal sign, putting the names of the labels between quotes.
+
+
+
+REVIEW QUESTION 3  
+
+Which two of the following options are correct?
+
+1. Atomic vectors can hold elements of a different type, whereas lists can hold only elements of the same type.  
+2. Atomic vectors can hold elements only of the same type, whereas lists can hold elements of a different type.  
+3. R performs automatic coercion for atomic vectors.  
+4. R performs automatic coercion for lists.
+
+Ans. Atomic vectors can hold elements only of the same type, whereas lists can hold elements of a different type. , R performs automatic coercion for atomic vectors.
